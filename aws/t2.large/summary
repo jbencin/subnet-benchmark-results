@@ -1,0 +1,19 @@
+----- RESULTS FOR test_15s_block -----
+INFO [1689608861.724719] [src/chainstate/stacks/miner.rs:2299] [chainstate::stacks::bench::tests::test_15s_block] Miner: mined anchored block, block_hash: 5ce8e6ca0cee871f093c49068d3e8b244c4fb0c41a857679c73ed1573e42f6d7, height: 2, tx_count: 770, parent_stacks_block_hash: 9805d255cdb33cc436faa503f565e4226991393592578e9b42243187e91adaf8, parent_stacks_microblock: 0000000000000000000000000000000000000000000000000000000000000000, parent_stacks_microblock_seq: 0, block_size: 157165, execution_consumed: {"runtime": 2007335000, "write_len": 7025, "write_cnt": 1137, "read_len": 1543487, "read_cnt": 3812}, assembly_time_ms: 15622, tx_fees_microstacks: 1538000
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 934 filtered out; finished in 630.94s
+
+----- RESULTS FOR test_max_block -----
+INFO [1689609671.278994] [src/chainstate/stacks/miner.rs:2299] [chainstate::stacks::bench::tests::test_max_block] Miner: mined anchored block, block_hash: 506dff15d4360935f89b3f2d6d189d0f0986393115b7e3d700014a29040fc741, height: 2, tx_count: 10533, parent_stacks_block_hash: 0de6002097e68b3875574d025788329c9a809370d4c9616500e0592110d6717c, parent_stacks_microblock: 0000000000000000000000000000000000000000000000000000000000000000, parent_stacks_microblock_seq: 0, block_size: 2097107, execution_consumed: {"runtime": 22585410000, "write_len": 81810, "write_cnt": 12978, "read_len": 17416458, "read_cnt": 43308}, assembly_time_ms: 211753, tx_fees_microstacks: 18280000
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 934 filtered out; finished in 888.10s
+
+----- RESULTS FOR test_15s_block_stx_transfers_only -----
+INFO [1689610358.929418] [src/chainstate/stacks/miner.rs:2299] [chainstate::stacks::bench::tests::test_15s_block_stx_transfers_only] Miner: mined anchored block, block_hash: d5e058c4893315fd8b0d67f687ba01a79880519a145ec9b31db4763e848000bc, height: 2, tx_count: 1037, parent_stacks_block_hash: c8a671cd8f0b173083173b6abb2935f1f802c3d349b6d3b755cf0aad61493c94, parent_stacks_microblock: 0000000000000000000000000000000000000000000000000000000000000000, parent_stacks_microblock_seq: 0, block_size: 186911, execution_consumed: {"runtime": 0, "write_len": 0, "write_cnt": 0, "read_len": 0, "read_cnt": 0}, assembly_time_ms: 15584, tx_fees_microstacks: 518000
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 934 filtered out; finished in 605.63s
+
+----- RESULTS FOR test_max_block_stx_transfers_only -----
+INFO [1689611134.310874] [src/chainstate/stacks/miner.rs:2299] [chainstate::stacks::bench::tests::test_max_block_stx_transfers_only] Miner: mined anchored block, block_hash: c57103c2181571bbf34137dfc5ab5addfda7e035fc0f8b93a5c7c99335d75296, height: 2, tx_count: 11649, parent_stacks_block_hash: 58a8d50afffeff8c4234626570b6431f5ea5eb2a2eeed18a56e01405d5620356, parent_stacks_microblock: 0000000000000000000000000000000000000000000000000000000000000000, parent_stacks_microblock_seq: 0, block_size: 2097071, execution_consumed: {"runtime": 0, "write_len": 0, "write_cnt": 0, "read_len": 0, "read_cnt": 0}, assembly_time_ms: 181142, tx_fees_microstacks: 5824000
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 934 filtered out; finished in 813.16s
